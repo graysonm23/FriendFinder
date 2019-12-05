@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Friend Finder</title>
+    <script
+      src="https://kit.fontawesome.com/7526ad2636.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Survey Questions</h2>
+      <hr />
+      <h3>
+        About You
+      </h3>
+      <h4>Name (Required)</h4>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"
+            ><i class="fas fa-signature"></i
+          ></span>
+        </div>
+        <input
+          required="true"
+          type="text"
+          class="form-control"
+          placeholder="Name..."
+          aria-label="Name"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <h4>Link to PhotoImage (Required)</h4>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1"
+            ><i class="fas fa-link"></i
+          ></span>
+        </div>
+        <input
+          required="true"
+          type="text"
+          class="form-control"
+          placeholder="Link..."
+          aria-label="link"
+          aria-describedby="basic-addon1"
+        />
+      </div>
+      <h3>Question 1</h3>
+      <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 2</h3>
+      <h5>
+        Generally speaking, you rely more on your experience than your
+        imagination.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 3</h3>
+      <h5>
+        You find it easy to stay relaxed and focused even when there is some
+        pressure.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 4</h3>
+      <h5>You rarely do something just out of sheer curiosity.</h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 5</h3>
+      <h5>People can rarely upset you.</h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 6</h3>
+      <h5>
+        It is often difficult for you to relate to other people’s feelings.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 7</h3>
+      <h5>
+        In a discussion, truth should be more important than people’s
+        sensitivities.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 8</h3>
+      <h5>You rarely get carried away by fantasies and ideas.</h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 9</h3>
+      <h5>
+        You think that everyone’s views should be respected regardless of
+        whether they are supported by facts or not.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <h3>Question 10</h3>
+      <h5>
+        You feel more energetic after spending time with a group of people.
+      </h5>
+      <select required="true" class="form-control">
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+        <option>Default select</option>
+      </select>
+      <button type="button" class="btn btn-info">Submit</button>
+      <hr />
+      <a href="/api/friends">API Friends List</a>
+      <span> | </span>
+      <a href="https://github.com/graysonm23/FriendFinder">GitHub Repo</a>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

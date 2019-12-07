@@ -208,8 +208,8 @@
       <div class="modal-body">
         <h2 id="matchName"></h2>
         <img
+          style="max-height: 300px; max-width: 300px;"
           id="matchImg"
-          src="https://via.placeholder.com/100x100"
           alt="Placeholder image in case user pic doesn't show"
         />
       </div>
@@ -252,10 +252,10 @@
           };
           var windowURL = window.location.origin;
           $.post("/api/friends", newUser).done(function(data) {
-            // console.log('response = ' + JSON.stringify(data));
             // Set the name and image values of friend match
-            $(".userName").html(data.matchName);
-            $("#userPhoto").attr("src", data.matchImage);
+            $("#matchName").text(data.matchName);
+            $("#matchImg").attr("src", data.matchImage);
+            console.log(data);
             // Pop open the modal dialog
             $("#ex1").show();
           });

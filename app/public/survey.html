@@ -15,9 +15,23 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container" style="position: relative;">
       <h2>Survey Questions</h2>
       <hr />
       <h3>
@@ -33,7 +47,7 @@
         <input
           required="true"
           type="text"
-          class="form-control"
+          class="form-control userName"
           placeholder="Name..."
           aria-label="Name"
           aria-describedby="basic-addon1"
@@ -49,7 +63,7 @@
         <input
           required="true"
           type="text"
-          class="form-control"
+          class="form-control userPhoto"
           placeholder="Link..."
           aria-label="link"
           aria-describedby="basic-addon1"
@@ -57,119 +71,119 @@
       </div>
       <h3>Question 1</h3>
       <h5>Your mind is always buzzing with unexplored ideas and plans.</h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q1">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 2</h3>
       <h5>
         Generally speaking, you rely more on your experience than your
         imagination.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q2">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 3</h3>
       <h5>
         You find it easy to stay relaxed and focused even when there is some
         pressure.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q3">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 4</h3>
       <h5>You rarely do something just out of sheer curiosity.</h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q4">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 5</h3>
       <h5>People can rarely upset you.</h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q5">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 6</h3>
       <h5>
         It is often difficult for you to relate to other people’s feelings.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q6">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 7</h3>
       <h5>
         In a discussion, truth should be more important than people’s
         sensitivities.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q7">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 8</h3>
       <h5>You rarely get carried away by fantasies and ideas.</h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q8">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 9</h3>
       <h5>
         You think that everyone’s views should be respected regardless of
         whether they are supported by facts or not.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q9">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <h3>Question 10</h3>
       <h5>
         You feel more energetic after spending time with a group of people.
       </h5>
-      <select required="true" class="form-control">
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
-        <option>Default select</option>
+      <select required="true" class="form-control q10">
+        <option value=""></option>
+        <option value="1">1 (Strongly Disagree)</option>
+        <option value="2">2</option>
+        <option selected value="3">3 (Neither)</option>
+        <option value="4">4</option>
+        <option value="5">5 (Strongly Agree)</option>
       </select>
       <button type="button" class="btn btn-info">Submit</button>
       <hr />
@@ -177,20 +191,82 @@
       <span> | </span>
       <a href="https://github.com/graysonm23/FriendFinder">GitHub Repo</a>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
+    <footer
+      class="footer"
+      style="position: relative; bottom: 0; width: 100%; height: 2.5rem; text-align: center;"
+    >
+      <div class="container">
+        <span class="text-muted">&copy; Grayson McMurry</span>
+      </div>
+    </footer>
+    <div
+      id="ex1"
+      class="modal"
+      style="background: rgba(0,0,0, 0.2); height: 500px; width: 500px; position: fixed; top: 50%; left: 50%; margin-left: -250px; margin-top: -250px;"
+    >
+      <h2 style="text-align: center;">Best Match</h2>
+      <div class="modal-body">
+        <h2 id="matchName"></h2>
+        <img
+          id="matchImg"
+          src="https://via.placeholder.com/100x100"
+          alt="Placeholder image in case user pic doesn't show"
+        />
+      </div>
+      <a
+        style="position: absolute; top: 0; right: 0;"
+        class="modalClose"
+        href="#"
+        rel="modal:close"
+        >Close</a
+      >
+    </div>
+    <script type="text/javascript">
+      $("button").on("click", function() {
+        event.preventDefault();
+        function validating() {
+          var valid = true;
+          if (
+            $(".form-control").each(function() {
+              if ($(this).val() === "") valid = false;
+            })
+          );
+          return valid;
+        }
+        if (validating() === true) {
+          var newUser = {
+            name: $(".userName").val(),
+            photo: $(".userPhoto").val(),
+            scores: [
+              $(".q1").val(),
+              $(".q2").val(),
+              $(".q3").val(),
+              $(".q4").val(),
+              $(".q5").val(),
+              $(".q6").val(),
+              $(".q7").val(),
+              $(".q8").val(),
+              $(".q9").val(),
+              $(".q10").val()
+            ]
+          };
+          var windowURL = window.location.origin;
+          $.post("/api/friends", newUser).done(function(data) {
+            // console.log('response = ' + JSON.stringify(data));
+            // Set the name and image values of friend match
+            $(".userName").html(data.matchName);
+            $("#userPhoto").attr("src", data.matchImage);
+            // Pop open the modal dialog
+            $("#ex1").show();
+          });
+        } else {
+          $("#ex1").text("Please Finish Filling Out All Fields");
+        }
+        return false;
+      });
+      $(".modalClose").on("click", function() {
+        $("#ex1").hide();
+      });
+    </script>
   </body>
 </html>

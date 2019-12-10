@@ -2,7 +2,7 @@
 Find your next Soulmate!
 
 ## Deployed Link
-https://nameless-shelf-63739.herokuapp.com/ (link)
+[Heroku](https://nameless-shelf-63739.herokuapp.com/)
 
 
 ## Overview
